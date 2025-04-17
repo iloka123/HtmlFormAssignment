@@ -22,49 +22,53 @@
          ut voluptatem! Dolor, quaerat?</p>
 </section>
 <section>
-    <H2>Fill Out Your Personal Details Here To Register for the Software Developers Boothcamp</H2>
+    <h2>Fill Out Your Personal Details Here To Register for the Software Developers Bootcamp</h2>
 </section>
+
 <section>
- <form action="">
-    <div>
-<label for="">Name</label>
-<input type="text">
- </div>
- <div>
-    <label for="">Phone Number</label>
-    <input type="number">
-     </div>
-     <div>
-        <label for="">E-mail</label>
-        <input type="email">
-     </div>
-     <div>
-        <label for="">Password</label>
-        <input type="password">
-     </div>
-     <div>
-        <label for="course">Course</label>
-        <select name="course" id="course">
-            <option value="software">Software Developers Bootcamp</option>
-            <option value="cybersecurity">CyberSecurity Bootcamp</option>
-            <option value="uiux">UI/UX Bootcamp</option>
-            <option value="datascience">Data Science Bootcamp</option>
-        </select>
-    </div>
-    
-         <div>
-            <label for="">Laptop Name</label>
-            <input type="text">
-             </div>
-             <div>
-                <label for="">Signature</label>
-                <input type="file">
-                 </div>
-                 <div>
-                    <label for=""></label>
-                    <input type="submit">
-                 </div>
- </form>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number</label></td>
+                <td><input type="number" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="course">Course</label></td>
+                <td>
+                    <select name="course" id="course">
+                        <option value="software">Software Developers Bootcamp</option>
+                        <option value="cybersecurity">CyberSecurity Bootcamp</option>
+                        <option value="uiux">UI/UX Bootcamp</option>
+                        <option value="datascience">Data Science Bootcamp</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="laptop">Laptop Name</label></td>
+                <td><input type="text" id="laptop" name="laptop"></td>
+            </tr>
+            <tr>
+                <td><label for="signature">Signature</label></td>
+                <td><input type="file" id="signature" name="signature"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
 </section>
 </main>
 <footer>
